@@ -1,5 +1,4 @@
 ul {
-  font-size: 20px;
   color: red;
 }
 
@@ -10,6 +9,37 @@ ol {
 
 h1 {
   color: lightgray;
+}
+
+div {
+  font-size: 12px;
+}
+div p {
+  color: blue;
+}
+div ul {
+  color: green;
+}
+
+.error, .alerta, .exito {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.exito {
+  background-color: green;
+}
+
+.alerta {
+  background-color: yellow;
+}
+
+.error {
+  background-color: red;
 }
 
 /*# sourceMappingURL=variables.css.map */

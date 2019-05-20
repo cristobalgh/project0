@@ -1,8 +1,6 @@
 $color: red;
-$coltitulo: lightgray;
 
 ul {
-  font-size: 20px;
   color: $color;
 }
 
@@ -12,5 +10,34 @@ ol {
 }
 
 h1 {
-  color: $coltitulo;
+  color: lightgray;
+}
+div {
+  font-size: 12px;
+  p {
+    color:blue;
+  }
+  ul {
+    color:green;
+  }
+}
+%mensaje {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+.exito {
+  @extend %mensaje;
+  background-color: green;
+}
+.alerta {
+  @extend %mensaje;
+  background-color: yellow;
+}
+.error {
+  @extend %mensaje;
+  background-color: red;
 }
