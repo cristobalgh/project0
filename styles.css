@@ -9,6 +9,7 @@ table {
   border: 2px solid black;
   border-collapse: collapse;
   width: 50%;
+  font-size: 12px;
 }
 th, td {
   border: 1px solid black;
@@ -20,8 +21,8 @@ th {
 }
 #hola {
   font-size: 14px;
-  color: gray;
-  text-align: right;
+  color: darkblue;
+  text-align: center;
 }
 #uno {
   text-align: right;
@@ -39,11 +40,11 @@ th {
 }
 .tabla {
   color: darkblue;
-  text-decoration: underline;
+  text-decoration: overline;
 }
 @media (min-width: 800px){
   body{
-    background-color: lightyellow;
+    background-color: lightgray;
   }
 }
 @media (max-width: 799px){
